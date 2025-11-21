@@ -1,3 +1,4 @@
+console.log("this is a text message")
 const screen= document.getElementById("outputscreen");
     function display(val){
         screen.value += val;
@@ -18,4 +19,5 @@ const screen= document.getElementById("outputscreen");
             screen.value="Error";
             setTimeout(()=>(screen.value=''),800)
         }
+
     }
